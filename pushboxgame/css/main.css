@@ -1,0 +1,54 @@
+*{padding:0; margin:0;}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #92d294;
+}
+#wrap{
+	margin:10px auto;
+	background:url('img/block.gif');
+	position: relative;
+}
+#wrap div{
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	transition: .2s;
+}
+#wrap div img{
+	position: absolute;
+	bottom: 0;
+}
+#wrap div.ball img{
+	left: 50%;
+	top :50%;
+	margin-top: -15px;
+	margin-left:-15px;
+	
+}
+#wrap div.person img{
+	left:50%;
+	margin-left: -25px;
+	
+}
+#btn{
+	display: table;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#btn span{
+	display: inline-block;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background:  #eee;
+	color: #666;
+	border: 1px solid #dedede;
+	margin: 0 5px;
+	cursor:  pointer;
+}
+#btn span:hover{
+	color:#fff;
+	background:#febd02;
+}
